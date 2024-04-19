@@ -1,0 +1,66 @@
+body{
+    background-image: linear-gradient(rgba(176, 110, 110, 0.8),rgba(173, 89, 89, 0.8))url(https://media.istockphoto.com/id/1386705180/photo/abstract-blue-background.jpg?b=1&s=612x612&w=0&k=20&c=wdimBouyd8QHkg5iAeMRCvwq57yuACw0IkjzoF7uXvk=);
+background-color:rgb(114, 113, 112);
+color: #000;
+display:flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+flex-direction: column;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.stopwatch{
+    
+    background-color: rgba(22, 127, 180, 0.9);
+    width:600px;
+    text-align: center;
+    padding: 50px 24px;
+    border-radius:10px;
+    margin: 50px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+.stopwatch:hover{
+    background-color: #76f0d6;
+    
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    width:12rem;
+    margin: 2rem 8.72rem;
+   padding: 2rem 8.72rem;
+    font-size: 4rem;
+
+   
+}
+.timer h1{
+    color: #fff;
+    text-align: center;
+   
+}
+.btn{
+    font-size: 1.125rem;
+    border: none;
+    background: none;
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 2rem;
+    }
+.btn:hover{
+    color: #fff;
+    
+}
+.btn:active{
+    transform: scale(0.9);
+    }
